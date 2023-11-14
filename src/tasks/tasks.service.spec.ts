@@ -1,6 +1,6 @@
 import { NotFoundException } from '@nestjs/common';
 import { Test } from '@nestjs/testing';
-import { TaskStatus } from './task-status.enum';
+import { TaskStatus } from './task.entity';
 import { TasksRepository } from './tasks.repository';
 import { TasksService } from './tasks.service';
 
